@@ -12,6 +12,129 @@
 
 body {
   font-family: "roboto", sans-serif;
-  font-size: 20px;
+  font-size: 27px;
+}
+
+.titre {
+  font-family: "shrikhand", sans-serif;
+  font-size: 27px;
+}
+
+.flexcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Pages */
+/* header*/
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: gainsboro;
+  border-top: 6px #c7c7c7 solid;
+}
+
+#blocreservez {
+  padding: 50px 170px;
+}
+
+/* Fonctionnement*/
+#SectionF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blocexplfonct {
+  border-radius: 40px;
+  background-color: #F2F2F2;
+  margin: 30px;
+  padding: 30px;
+  -webkit-box-shadow: lightgray 0px 5px 5px;
+          box-shadow: lightgray 0px 5px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+}
+
+/* Restaurants*/
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: lightgray 0px 5px 5px;
+          box-shadow: lightgray 0px 5px 5px;
+  border-radius: 20px 20px 20px 20px;
+  margin: 30px 10px;
+  padding: 5px;
+}
+
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.backblocgris {
+  background-color: #F2F2F2;
+}
+
+#sectionRestaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*Composants*/
+.btnExplorer {
+  background: radial-gradient(ellipse at left top, #ff60d3 0%, #a16be0 100%);
+  border-radius: 50px;
+  -webkit-box-shadow: lightgray 7px 7px 3px;
+          box-shadow: lightgray 7px 7px 3px;
+  padding: 30px;
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=main_css.css.map */

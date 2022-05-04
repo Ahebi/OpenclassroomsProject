@@ -1,0 +1,73 @@
+/* header*/
+.logo
+{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.location
+{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    border-top:  6px rgb(199, 199, 199) solid;
+    
+}
+#blocreservez
+{
+    
+    padding: 50px 170px;
+}
+
+/* Fonctionnement*/
+#SectionF
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.blocexplfonct
+{
+    border-radius: 40px;
+    background-color: #F2F2F2;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: lightgray 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+
+/* Restaurants*/
+.card
+{
+  
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: lightgray 0px 5px 5px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px 10px;
+    padding: 5px;
+}
+
+.img
+{
+
+    object-fit: cover;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+}
+.backblocgris
+{
+    background-color: #F2F2F2;
+}
+#sectionRestaurant
+{
+    display: flex;
+    flex-direction: column;
+    
+
+}

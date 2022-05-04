@@ -1,6 +1,13 @@
 /* utils*/
-@import "./Utils/variable";
+@import "./systeme_7.1/Utils/variable";
 
 /* Base*/
-@import "./Base/police_ecriture";
+@import "./systeme_7.1/Base/police_ecriture";
+@import "./Systeme_7.1/Base/propriete_reutilisable";
+
+/* Pages */
+@import "./Systeme_7.1/Pages/accueil";
+
+/*Composants*/
+@import "./Systeme_7.1/Composants/bouton";
 
