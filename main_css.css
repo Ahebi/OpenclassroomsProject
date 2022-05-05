@@ -15,9 +15,13 @@ body {
   font-size: 27px;
 }
 
-.titre {
+.titrepolice {
   font-family: "shrikhand", sans-serif;
   font-size: 27px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .flexcenter {
@@ -37,6 +41,10 @@ body {
 }
 
 /* Pages */
+body {
+  text-decoration: none;
+}
+
 /* header*/
 .logo {
   display: -webkit-box;
@@ -73,20 +81,57 @@ body {
           flex-direction: column;
 }
 
+.iconefonct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconechiffre {
+  color: white;
+  padding: 10px;
+  background-color: #9356dc;
+  margin-left: 0px;
+  border-radius: 30px;
+}
+
+.FonctText {
+  font-weight: 700;
+}
+
+.divdivFonct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
 .blocexplfonct {
   border-radius: 40px;
   background-color: #F2F2F2;
   margin: 30px;
-  padding: 30px;
   -webkit-box-shadow: lightgray 0px 5px 5px;
           box-shadow: lightgray 0px 5px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 /* Restaurants*/
@@ -125,16 +170,72 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 30px 10px;
+}
+
+.titrealigneacceuil {
+  margin-left: 20px;
+}
+
+.figcaptionRestaurants {
+  padding: 20px;
+  color: black;
+  font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Blociconecoeur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: black;
 }
 
 /*Composants*/
-.btnExplorer {
+.btncolore {
   background: radial-gradient(ellipse at left top, #ff60d3 0%, #a16be0 100%);
   border-radius: 50px;
   -webkit-box-shadow: lightgray 7px 7px 3px;
           box-shadow: lightgray 7px 7px 3px;
   padding: 30px;
   text-decoration: none;
+  color: white;
+}
+
+/* Themes */
+footer {
+  background-color: #363636;
+  padding: 40px 0px;
+  margin: 0px 0px;
+}
+
+#logofooter {
+  -webkit-filter: brightness(50);
+          filter: brightness(50);
+}
+
+.lignefooter {
+  margin: 20px 30px;
+}
+
+.lignefootertext {
   color: white;
 }
 /*# sourceMappingURL=main_css.css.map */
