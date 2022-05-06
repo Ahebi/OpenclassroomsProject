@@ -10,14 +10,26 @@
   src: url(https://www.fontsquirrel.com/fonts/shrikhand) format("truetype");
 }
 
-body {
-  font-family: "roboto", sans-serif;
-  font-size: 27px;
+@media screen and (max-width: 992px) {
+  body {
+    font-family: "roboto", sans-serif;
+    font-size: 27px;
+  }
+  .titrepolice {
+    font-family: "shrikhand", sans-serif;
+    font-size: 27px;
+  }
 }
 
-.titrepolice {
-  font-family: "shrikhand", sans-serif;
-  font-size: 27px;
+@media screen and (min-width: 993px) {
+  body {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+  }
+  .titrepolice {
+    font-family: "shrikhand", sans-serif;
+    font-size: 20px;
+  }
 }
 
 a {
@@ -40,34 +52,78 @@ a {
   font-weight: 700;
 }
 
+.backblocgris {
+  background-color: #F2F2F2;
+}
+
 /* Pages */
-body {
-  text-decoration: none;
-}
-
 /* header*/
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (max-width: 992px) {
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: gainsboro;
+    border-top: 6px #c7c7c7 solid;
+  }
+  #blocreservez {
+    padding: 50px 170px;
+  }
 }
 
-.location {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: gainsboro;
-  border-top: 6px #c7c7c7 solid;
-}
-
-#blocreservez {
-  padding: 50px 170px;
+/* Version Desktop */
+@media screen and (min-width: 993px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: gainsboro;
+  }
+  .location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 270px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: silver;
+  }
+  #blocreservez {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: gainsboro;
+    width: 340px;
+  }
+  .displaynone {
+    display: none;
+  }
 }
 
 /* Fonctionnement*/
@@ -156,10 +212,6 @@ body {
      object-fit: cover;
   height: 500px;
   border-radius: 20px 20px 0px 0px;
-}
-
-.backblocgris {
-  background-color: #F2F2F2;
 }
 
 #sectionRestaurant {
