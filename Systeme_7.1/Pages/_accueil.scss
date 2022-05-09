@@ -261,11 +261,14 @@ header
 
 }
 
-.titrealigneacceuil
-{
-    margin-left: 20px;
+       
+            .titrealigneacceuil
+            {
+                margin-left: 20px;
 
-}
+            }
+    
+
 .figcaptionRestaurants
 {
     padding: 20px;
@@ -336,8 +339,9 @@ h1, h2, h3
    
         .titrealigneacceuil
         {
-            margin-left: 20px;
-        
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .figcaptionRestaurants
         {

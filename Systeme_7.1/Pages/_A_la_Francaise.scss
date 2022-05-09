@@ -1,0 +1,26 @@
+.GlobalSection
+{
+    border-radius: 100px 100px 0px 0px;
+    background-color: #f2f2f2;
+}
+
+.cartemenu
+{
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: lightgray 0px 5px 5px;
+}
+.descriptionmenu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nomrestaurant
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 90px;
+}
