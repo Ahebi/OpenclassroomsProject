@@ -68,7 +68,7 @@ header
 
 
 
-#SectionF
+#DivSectionF
 {
     display: flex;
     flex-direction: column;
@@ -123,8 +123,11 @@ header
             /*desktop*/
     @media screen and (min-width: 993px) {
 
-
         #SectionF
+        {
+            margin-top: 80px;
+        }
+        #DivSectionF
         {
             display: flex;
             flex-direction: row;
@@ -289,80 +292,94 @@ h1, h2, h3
 }
 /* Desktop*/
 @media screen and (min-width: 993px) {
-.Fig_A_Resto
-{
-    height: fit-content;
-    width: 20%;
-    flex-grow: 1;
-}
-    .card
+    .Fig_A_Resto
     {
-      
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        box-shadow: lightgray 0px 5px 5px;
-        border-radius: 20px 20px 20px 20px;
-        margin: 30px 10px;
-        padding: 5px;
+        width: 25%;
         flex-grow: 1;
         
+
     }
-    
-    .img
-    {
-    
-        object-fit: cover;
-        height: 500px;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    #sectionRestaurant
-    {        
-        padding: 30px 10px;      
-    
-    }
-    #DivRestaurant1
-    {
-        display: flex;
+        .card
+        {
+          
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            box-shadow: lightgray 0px 5px 5px;
+            border-radius: 20px 20px 20px 20px;
+            margin: 30px 10px;
+            padding: 5px;
+            flex-grow: 1;
+            
+        }
         
-        flex-direction: row;
+        .img
+        {
         
-       
-    }
-    #DivRestaurant2
-    {
-        display: flex;
+            object-fit: cover;
+            height: 500px;
+            border-radius: 20px 20px 0px 0px;
+        }
         
-        flex-direction: row;
+        #sectionRestaurant
+        {        
+            padding: 30px 10px;
+            margin-top: 80px;
+            
+        }
+        #DivRestaurant
+        {
+            display: flex;
+            flex-direction: row;
+            
+        }
+   
+        .titrealigneacceuil
+        {
+            margin-left: 20px;
+        
+        }
+        .figcaptionRestaurants
+        {
+            padding: 20px;
+            color: black;
+            font-size: larger;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .Blociconecoeur
+        {
+            display: flex;
+            align-items: center;
+            width: 5%;
+        }
+        @media screen and (min-width: 1629px) {
+
+        .CaptionText
+        {
+            font-size: 20px;
+        }
     }
-    .titrealigneacceuil
-    {
-        margin-left: 20px;
-    
+    @media screen and (max-width: 1628px) and (min-width: 1160px){
+
+        .CaptionText
+        {
+            font-size: 18px;
+        }
     }
-    .figcaptionRestaurants
-    {
-        padding: 20px;
-        color: black;
-        font-size: larger;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    @media screen and (max-width: 1159px) and (min-width: 993px){
+        .CaptionText
+        {
+            font-size: 15px;
+        }
     }
-    
-    .Blociconecoeur
-    {
-        display: flex;
-        align-items: center;
-        width: 80px;
-    }
-    
-    h1, h2, h3
-    {
-        font-weight: 700;
-        color: black;
-    }
+
+        h1, h2, h3
+        {
+            font-weight: 700;
+            color: black;
+        }
     
 
 
