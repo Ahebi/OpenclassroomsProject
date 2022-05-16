@@ -1,9 +1,50 @@
+
+/* Bouton color*/
+@media screen and (min-width: 410px) {
+    
+
 .btncolore
 {
     background: radial-gradient(ellipse at left top, darken($Secondaire, 5) 0%, lighten($Primaire, 5) 100%);
     border-radius: 50px;
     box-shadow: lightgray 7px 7px 3px;
-    padding: 30px;
+    padding: 20px;
     text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
     color: white;
 }
+}
+
+@media screen and (max-width: 409px) and (min-width: 378px){
+    
+    .btncolore
+{
+    background: radial-gradient(ellipse at left top, darken($Secondaire, 5) 0%, lighten($Primaire, 5) 100%);
+    border-radius: 50px;
+    box-shadow: lightgray 7px 7px 3px;
+    padding: 16px;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+}
+@media screen and (max-width: 377px)  {
+
+    .btncolore
+    {
+        background: radial-gradient(ellipse at left top, darken($Secondaire, 5) 0%, lighten($Primaire, 5) 100%);
+        border-radius: 50px;
+        box-shadow: lightgray 7px 7px 3px;
+        padding: 15px;
+        text-decoration: none;
+        font-family: "roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+    }
+}
+/* Fin Bouton color*/

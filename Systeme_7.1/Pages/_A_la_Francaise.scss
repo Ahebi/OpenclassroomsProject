@@ -1,14 +1,52 @@
-.GlobalSection
+#barrelogoResto
 {
-    border-radius: 100px 100px 0px 0px;
-    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+#logoResto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    object-fit: cover;
 }
 
+#Figimgfondresto
+{
+    
+    margin: 0px;
+    width: 100%;
+}
+#imgFondResto
+{
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.GlobalSection
+{
+   
+    position: relative;
+    bottom: 60px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #f2f2f2;
+    
+    
+}
+.Sous_Section_Resto
+{
+    margin-bottom: 40px;
+}
 .cartemenu
 {
     border-radius: 20px;
     background-color: white;
-    margin: 30px;
+    margin: 20px 5px;
     padding: 20px;
     box-shadow: lightgray 0px 5px 5px;
 }
@@ -17,10 +55,41 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 2px;
+    font-size: 15px;
+    font-family: "roboto", sans-serif;
+}
+.titremenu
+{
+    margin: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.titrecategorie_Resto
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
+    
+}
+.titrecategorie_Resto_span
+{
+    border-bottom: solid $Tertiaire 3px;
+    padding-bottom: 7px;
 }
 #nomrestaurant
 {
     display: flex;
     justify-content: space-between;
-    padding: 60px 90px;
+    padding: 30px 40px;
+    font-family: "shrikhand", sans-serif;
+    font-size: 22px;
+}
+#btn_Resto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }

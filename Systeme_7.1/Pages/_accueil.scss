@@ -6,13 +6,17 @@
     
 
 
-.logo
+#logoindex
 {
     
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
 }
+    
+
     
 .location
 {
@@ -22,10 +26,23 @@
     border-top:  6px rgb(199, 199, 199) solid;
     
 }
+.Titre_reservez
+{
+    font-family: "shrikhand", sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.P_reservez
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 #blocreservez
 {
     
-    padding: 50px 170px;
+    padding: 50px 70px; 
 }
     }
             /* Version Desktop */
@@ -48,7 +65,10 @@ header
     
      
 }
-
+.Titre_reservez
+{
+   display: none;
+}
 #blocreservez
 {
     display: flex;
@@ -56,7 +76,7 @@ header
     background-color: gainsboro;
     width: 340px;
 }
-.displaynone
+.P_reservez
 {
     display: none;
 }
@@ -64,7 +84,7 @@ header
 
 /* Fonctionnement*/
 /* mobile*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 560px) {
 
 
 
@@ -78,6 +98,7 @@ header
 {
    display: flex;
    align-items: center;
+   justify-content: space-around;
 
 }
 .iconechiffre
@@ -103,6 +124,7 @@ header
     
     box-shadow: lightgray 0px 5px 5px;
     display: flex;
+    
     flex-direction: row;
     
     
@@ -114,9 +136,76 @@ header
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 85%;
 }
+}
+/* Tablette */
 
+@media screen and (min-width: 561px) and (max-width: 992px){
+
+    #DivSectionF
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .iconefonct
+    {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+    
+    }
+    .iconechiffre
+    {
+        color: white;
+        padding: 10px;
+        background-color: $Primaire;
+        margin-left: 0px;
+        border-radius : 30px;  
+        
+    }
+    .FonctText
+    {
+       
+        font-weight: 700;
+    
+    }
+    .blocexplfonct
+    {
+        border-radius: 40px;
+        background-color: #F2F2F2;
+        margin: 30px;
+        width: 400px;
+        box-shadow: lightgray 0px 5px 5px;
+        display: flex;
+        flex-direction: row;
+    }
+        @media screen and (min-width: 760px) and (max-width: 992px){
+            
+                .blocexplfonct
+                {
+                    border-radius: 40px;
+                    background-color: #F2F2F2;
+                    margin: 30px;
+                    width: 500px;
+                    box-shadow: lightgray 0px 5px 5px;
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+        @media screen and (min-width: 561px) and (max-width: 992px){
+    .divdivFonct
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+    }
 
     }
 
@@ -231,7 +320,7 @@ header
 /* Restaurants*/
 
 /* mobile*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 560px) {
 
 .card
 {
@@ -241,15 +330,20 @@ header
     background-color: white;
     box-shadow: lightgray 0px 5px 5px;
     border-radius: 20px 20px 20px 20px;
-    margin: 30px 10px;
+    margin: 0px;
     padding: 5px;
+    height: 330px;
 }
-
+.Fig_A_Resto
+{
+    margin: 30px 1px;
+    height: 330px;
+}
 .img
 {
 
     object-fit: cover;
-    height: 500px;
+    height: 250px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -262,18 +356,20 @@ header
 }
 
        
-            .titrealigneacceuil
-            {
-                margin-left: 20px;
+.titrealigneacceuil
+{
+    margin-left: 20px;
+    font-family: "shrikhand", sans-serif;
+    font-size: 22px;
 
-            }
+}
     
 
 .figcaptionRestaurants
 {
-    padding: 20px;
+    padding: 5px;
     color: black;
-    font-size: larger;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -283,7 +379,7 @@ header
 {
     display: flex;
     align-items: center;
-    width: 80px;
+    width: 50px;
 }
 
 h1, h2, h3
@@ -293,7 +389,91 @@ h1, h2, h3
 }
 
 }
+
+/* Tablette */
+
+@media screen and (min-width: 561px) and (max-width: 992px){
+
+
+.card
+{
+  
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: lightgray 0px 5px 5px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px;
+    padding: 5px;
+    height: 250px;
+    
+}
+.Fig_A_Resto
+{
+    margin: 30px 20px;
+    height: 240px;
+    width: 35%;
+    flex-grow: 1;
+}
+.img
+{
+
+    object-fit: cover;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 160px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#sectionRestaurant
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+
+}
+#DivRestaurant
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+       
+.titrealigneacceuil
+{
+    margin-left: 20px;
+    font-family: "shrikhand", sans-serif;
+    font-size: 22px;
+
+}
+    
+
+.figcaptionRestaurants
+{
+    padding: 5px;
+    color: black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Blociconecoeur
+{
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+h1, h2, h3
+{
+    font-weight: 700;
+    color: black;
+}
+}
+
 /* Desktop*/
+
 @media screen and (min-width: 993px) {
     .Fig_A_Resto
     {
@@ -320,7 +500,7 @@ h1, h2, h3
         {
         
             object-fit: cover;
-            height: 500px;
+            height: 300px;
             border-radius: 20px 20px 0px 0px;
         }
         
@@ -345,7 +525,7 @@ h1, h2, h3
         }
         .figcaptionRestaurants
         {
-            padding: 20px;
+            padding: 12px;
             color: black;
             font-size: larger;
             display: flex;
