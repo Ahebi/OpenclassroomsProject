@@ -60,9 +60,20 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
+    width: 80%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  #barrelogoIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .location {
     display: -webkit-box;
@@ -922,11 +933,154 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 15px 60px;
     font-family: 'Shrikhand', sans-serif;
-    font-size: 25px;
+    font-size: 40px;
+  }
+  #coeur_nomResto {
+    margin-left: 80px;
+  }
+  #btn_Resto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+}
+
+/* Desktop*/
+@media screen and (min-width: 993px) {
+  .headerResto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #barrelogoResto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%;
+  }
+  #logoResto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Figimgfondresto {
+    margin: 0px;
+    width: 100%;
+  }
+  #imgFondResto {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 300px;
+  }
+  .GlobalSection {
+    position: relative;
+    bottom: 60px;
+    border-radius: 60px 60px 0px 0px;
+    background-color: #f2f2f2;
+  }
+  .Sous_Section_Resto {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .cartemenu {
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: lightgray 0px 5px 5px;
+            box-shadow: lightgray 0px 5px 5px;
+    width: 38%;
+  }
+  .descriptionmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2px;
+    font-size: 15px;
+    font-family: "roboto", sans-serif;
+  }
+  .titremenu {
+    margin: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .titrecategorie_Resto {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .titrecategorie_Resto_span {
+    border-bottom: solid #99e2d0 3px;
+    padding-bottom: 7px;
+  }
+  #nomrestaurant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 25px 60px;
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 40px;
+  }
+  #coeur_nomResto {
+    margin-left: 80px;
   }
   #btn_Resto {
     display: -webkit-box;

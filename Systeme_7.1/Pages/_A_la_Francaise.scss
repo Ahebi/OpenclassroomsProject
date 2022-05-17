@@ -193,10 +193,132 @@
 #nomrestaurant
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding: 15px 60px;
     font-family: 'Shrikhand', sans-serif;
-    font-size: 25px;
+    font-size: 40px;
+}
+#coeur_nomResto
+{
+    margin-left: 80px;
+}
+#btn_Resto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+}
+
+                /* Desktop*/
+
+@media screen and (min-width: 993px) {
+
+.headerResto
+{
+    display: flex;
+    flex-direction: column;
+}
+       
+#barrelogoResto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+#logoResto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    object-fit: cover;
+}
+
+#Figimgfondresto
+{
+    
+    margin: 0px;
+    width: 100%;
+}
+#imgFondResto
+{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    
+}
+.GlobalSection
+{
+   
+    position: relative;
+    bottom: 60px;
+    border-radius: 60px 60px 0px 0px;
+    background-color: #f2f2f2;
+    
+    
+}
+.Sous_Section_Resto
+{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cartemenu
+{
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px ;
+    padding: 20px;
+    box-shadow: lightgray 0px 5px 5px;
+    width: 38%;
+    
+}
+.descriptionmenu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    font-size: 15px;
+    font-family: "roboto", sans-serif;
+}
+.titremenu
+{
+    margin: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.titrecategorie_Resto
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
+    
+}
+.titrecategorie_Resto_span
+{
+    border-bottom: solid $Tertiaire 3px;
+    padding-bottom: 7px;
+}
+#nomrestaurant
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 60px;
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 40px;
+}
+#coeur_nomResto
+{
+    margin-left: 80px;
 }
 #btn_Resto
 {
