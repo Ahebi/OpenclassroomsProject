@@ -14,6 +14,11 @@
     font-size: 18px;
     font-weight: 600;
     color: white;
+    &:hover{
+        cursor: pointer;
+        background: radial-gradient(ellipse at left top, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+        box-shadow: rgb(192, 192, 192) 7px 7px 3px;
+    }
 }
 }
 
@@ -30,6 +35,11 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
+    &:hover{
+        cursor: pointer;
+        background: radial-gradient(ellipse at left top, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+        box-shadow: rgb(192, 192, 192) 7px 7px 3px;
+    }
 }
 }
 @media screen and (max-width: 377px)  {
@@ -45,6 +55,11 @@
         font-size: 14px;
         font-weight: 600;
         color: white;
+        &:hover{
+            cursor: pointer;
+            background: radial-gradient(ellipse at left top, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+            box-shadow: rgb(192, 192, 192) 7px 7px 3px;
+        }
     }
 }
 /* Fin Bouton color*/

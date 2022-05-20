@@ -201,6 +201,9 @@ a {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .blocexplfonct:hover {
+    background-color: #e4d5f6;
+  }
   .divdivFonct {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -271,6 +274,9 @@ a {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .blocexplfonct:hover {
+    background-color: #e4d5f6;
+  }
 }
 
 @media screen and (min-width: 561px) and (max-width: 992px) and (min-width: 760px) and (max-width: 992px) {
@@ -288,6 +294,9 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .blocexplfonct:hover {
+    background-color: #e4d5f6;
   }
 }
 
@@ -366,6 +375,10 @@ a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.blocexplfonct:hover {
+  background-color: #e4d5f6;
 }
 
 @media screen and (min-width: 1451px) {
@@ -1112,6 +1125,12 @@ a {
     font-weight: 600;
     color: white;
   }
+  .btncolore:hover {
+    cursor: pointer;
+    background: radial-gradient(ellipse at left top, #ff88de 0%, #a978e3 100%);
+    -webkit-box-shadow: silver 7px 7px 3px;
+            box-shadow: silver 7px 7px 3px;
+  }
 }
 
 @media screen and (max-width: 409px) and (min-width: 378px) {
@@ -1126,6 +1145,12 @@ a {
     font-size: 16px;
     font-weight: 600;
     color: white;
+  }
+  .btncolore:hover {
+    cursor: pointer;
+    background: radial-gradient(ellipse at left top, #ff88de 0%, #a978e3 100%);
+    -webkit-box-shadow: silver 7px 7px 3px;
+            box-shadow: silver 7px 7px 3px;
   }
 }
 
@@ -1142,9 +1167,36 @@ a {
     font-weight: 600;
     color: white;
   }
+  .btncolore:hover {
+    cursor: pointer;
+    background: radial-gradient(ellipse at left top, #ff88de 0%, #a978e3 100%);
+    -webkit-box-shadow: silver 7px 7px 3px;
+            box-shadow: silver 7px 7px 3px;
+  }
 }
 
 /* Fin Bouton color*/
+.iconecoeur {
+  opacity: 1;
+}
+
+.iconecoeur:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.iconecoeur::after {
+  content: "";
+  font-weight: 700;
+  color: purple;
+}
+
+.iconecoeur::after:hover {
+  cursor: pointer;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+}
+
 /* Themes */
 footer {
   background-color: #363636;

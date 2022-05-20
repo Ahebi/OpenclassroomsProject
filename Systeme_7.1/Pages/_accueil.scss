@@ -131,10 +131,12 @@ header
     display: flex;
     
     flex-direction: row;
-    
-    
-    
-}
+        &:hover{
+            background-color: lighten($Primaire, 30);
+            
+        }
+ }   
+
 .divdivFonct
 {
     display: flex;
@@ -187,6 +189,10 @@ header
         box-shadow: lightgray 0px 5px 5px;
         display: flex;
         flex-direction: row;
+        &:hover{
+            background-color: lighten($Primaire, 30);
+            
+        }
     }
         @media screen and (min-width: 760px) and (max-width: 992px){
             
@@ -199,6 +205,10 @@ header
                     box-shadow: lightgray 0px 5px 5px;
                     display: flex;
                     flex-direction: row;
+                    &:hover{
+                        background-color: lighten($Primaire, 30);
+                        
+                    }
                 }
             }
         }
@@ -210,6 +220,7 @@ header
         justify-content: space-between;
         align-items: center;
         width: 85%;
+        
     }
 
     }
@@ -263,7 +274,10 @@ header
             
             flex-direction: row;
             flex-grow: 1;
-            
+            &:hover{
+                background-color: lighten($Primaire, 30);
+                
+            }
             
         }
             @media screen and (min-width: 1451px){
