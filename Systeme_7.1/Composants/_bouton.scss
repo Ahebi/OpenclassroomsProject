@@ -1,0 +1,83 @@
+
+/* Bouton color*/
+@media screen and (min-width: 410px) {
+    
+
+    .btncolore
+    {
+        background: radial-gradient(ellipse at left top, darken($Secondaire, 5) 0%, lighten($Primaire, 5) 100%);
+        border-radius: 50px;
+        box-shadow: lightgray 7px 7px 3px;
+        padding: 20px;
+        text-decoration: none;
+        font-family: "roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        &:hover{
+            cursor: pointer;
+            background: radial-gradient(ellipse at left top, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+            box-shadow: rgb(192, 192, 192) 7px 7px 3px;
+        }
+    }
+    }
+    
+    @media screen and (max-width: 409px) and (min-width: 378px){
+        
+        .btncolore
+    {
+        background: radial-gradient(ellipse at left top, darken($Secondaire, 5) 0%, lighten($Primaire, 5) 100%);
+        border-radius: 50px;
+        box-shadow: lightgray 7px 7px 3px;
+        padding: 16px;
+        text-decoration: none;
+        font-family: "roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        &:hover{
+            cursor: pointer;
+            background: radial-gradient(ellipse at left top, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+            box-shadow: rgb(192, 192, 192) 7px 7px 3px;
+        }
+    }
+    }
+    @media screen and (max-width: 377px)  {
+    
+        .btncolore
+        {
+            background: radial-gradient(ellipse at left top, darken($Secondaire, 5) 0%, lighten($Primaire, 5) 100%);
+            border-radius: 50px;
+            box-shadow: lightgray 7px 7px 3px;
+            padding: 15px;
+            text-decoration: none;
+            font-family: "roboto", sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            &:hover{
+                cursor: pointer;
+                background: radial-gradient(ellipse at left top, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+                box-shadow: rgb(192, 192, 192) 7px 7px 3px;
+            }
+        }
+    }
+    /* Fin Bouton color*/
+    
+        /* Bouton Coeur*/
+    
+    .fa-regular {
+        font-weight: 400;
+        
+        transition: font-weight 600ms ease-in-out, color 600ms ease-in-out;
+    
+        &:hover{
+            
+            font-weight: 700;
+            color: $Secondaire;
+            cursor: pointer;
+            
+        }
+    }
+        /* Fin Bouton Coeur*/
+    

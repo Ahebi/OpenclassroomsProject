@@ -1176,27 +1176,20 @@ a {
 }
 
 /* Fin Bouton color*/
-.iconecoeur {
-  opacity: 1;
+/* Bouton Coeur*/
+.fa-regular {
+  font-weight: 400;
+  -webkit-transition: font-weight 600ms ease-in-out, color 600ms ease-in-out;
+  transition: font-weight 600ms ease-in-out, color 600ms ease-in-out;
 }
 
-.iconecoeur:hover {
-  opacity: 0;
-  cursor: pointer;
-}
-
-.iconecoeur::after {
-  content: "";
+.fa-regular:hover {
   font-weight: 700;
-  color: purple;
-}
-
-.iconecoeur::after:hover {
+  color: #ff79da;
   cursor: pointer;
-  -webkit-transition: 300ms ease-out;
-  transition: 300ms ease-out;
 }
 
+/* Fin Bouton Coeur*/
 /* Themes */
 footer {
   background-color: #363636;
