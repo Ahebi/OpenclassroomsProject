@@ -1,0 +1,19 @@
+@keyframes Loader{
+
+to{
+    transform: rotate(360deg);
+}
+}
+
+
+#Spin_Loader
+{ 
+    
+    border: 10px solid $Primaire;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;     
+    position: relative;
+    animation: Loader 750ms ease-in-out infinite;
+    background-color: $Primaire;
+}

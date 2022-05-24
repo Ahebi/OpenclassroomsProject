@@ -1,5 +1,6 @@
 /* utils*/
 @import "./systeme_7.1/Utils/variable";
+@import "./Systeme_7.1/Utils/décalage";
 
 /* Base*/
 @import "./systeme_7.1/Base/police_ecriture";
@@ -7,10 +8,11 @@
 
 /* Pages */
 @import "./Systeme_7.1/Pages/accueil";
-@import "./Systeme_7.1/Pages/A_la_Francaise";
+@import "./Systeme_7.1/Pages/Menu";
 
 /*Composants*/
 @import "./Systeme_7.1/Composants/bouton";
+@import "./Systeme_7.1/Composants/Loader";
 
 
 /* Themes */

@@ -1,4 +1,92 @@
+@charset "UTF-8";
 /* utils*/
+@-webkit-keyframes décalage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes décalage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Plats1 {
+  -webkit-animation: décalage 500ms;
+          animation: décalage 500ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats2 {
+  -webkit-animation: décalage 500ms 200ms;
+          animation: décalage 500ms 200ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats3 {
+  -webkit-animation: décalage 500ms 400ms;
+          animation: décalage 500ms 400ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats4 {
+  -webkit-animation: décalage 500ms 800ms;
+          animation: décalage 500ms 800ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats5 {
+  -webkit-animation: décalage 500ms 1000ms;
+          animation: décalage 500ms 1000ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats6 {
+  -webkit-animation: décalage 500ms 1200ms;
+          animation: décalage 500ms 1200ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats7 {
+  -webkit-animation: décalage 500ms 1400ms;
+          animation: décalage 500ms 1400ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats8 {
+  -webkit-animation: décalage 500ms 1600ms;
+          animation: décalage 500ms 1600ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats9 {
+  -webkit-animation: décalage 500ms 1800ms;
+          animation: décalage 500ms 1800ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.Plats10 {
+  -webkit-animation: décalage 500ms 2000ms;
+          animation: décalage 500ms 2000ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
 /* Base*/
 @media screen and (max-width: 992px) {
   p {
@@ -1190,6 +1278,30 @@ a {
 }
 
 /* Fin Bouton Coeur*/
+@-webkit-keyframes Loader {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes Loader {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#Spin_Loader {
+  border: 10px solid #9356dc;
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  -webkit-animation: Loader 750ms ease-in-out infinite;
+          animation: Loader 750ms ease-in-out infinite;
+  background-color: #9356dc;
+}
+
 /* Themes */
 footer {
   background-color: #363636;

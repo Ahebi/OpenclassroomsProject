@@ -1,0 +1,62 @@
+@keyframes décalage{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.Plats1
+{
+    animation: décalage 500ms;
+    animation-fill-mode: backwards;
+}
+
+.Plats2
+{
+    animation: décalage 500ms 200ms;
+    animation-fill-mode: backwards;
+    
+}
+
+.Plats3
+{
+    animation: décalage 500ms 400ms ;
+    animation-fill-mode: backwards;
+}
+.Plats4
+{
+    animation: décalage 500ms 800ms ;
+    animation-fill-mode: backwards;
+}
+.Plats5
+{
+    animation: décalage 500ms 1000ms ;
+    animation-fill-mode: backwards;
+}
+.Plats6
+{
+    animation: décalage 500ms 1200ms ;
+    animation-fill-mode: backwards;
+}
+.Plats7
+{
+    animation: décalage 500ms 1400ms ;
+    animation-fill-mode: backwards;
+}
+.Plats8
+{
+    animation: décalage 500ms 1600ms ;
+    animation-fill-mode: backwards;
+}
+.Plats9
+{
+    animation: décalage 500ms 1800ms ;
+    animation-fill-mode: backwards;
+}
+.Plats10
+{
+    animation: décalage 500ms 2000ms ;
+    animation-fill-mode: backwards;
+}
