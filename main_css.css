@@ -1046,6 +1046,7 @@ a {
   }
   #coeur_nomResto {
     margin-left: 80px;
+    font-size: 22px;
   }
   #btn_Resto {
     display: -webkit-box;
@@ -1300,6 +1301,7 @@ a {
 
 .fa-regular {
   font-weight: 400;
+  font-size: 30px;
 }
 
 .fa-regular:hover {
@@ -1341,42 +1343,83 @@ a {
   }
 }
 
+@-webkit-keyframes Page_loader {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    z-index: -5;
+  }
+}
+
+@keyframes Page_loader {
+  0% {
+    opacity: 1;
+    z-index: 5;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    z-index: -5;
+  }
+}
+
 #Spin_Loader1 {
   border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  -webkit-animation: Loader 2s ease-in-out infinite;
-          animation: Loader 2s ease-in-out infinite;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: Loader 1s ease-in-out infinite;
+          animation: Loader 1s ease-in-out infinite;
   background: -webkit-gradient(linear, right top, left top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to left, #ff79da, #9356dc);
 }
 
 #Spin_Loader2 {
   border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  -webkit-animation: Loader 2s 600ms ease-in-out infinite;
-          animation: Loader 2s 600ms ease-in-out infinite;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: Loader 1s 400ms ease-in-out infinite;
+          animation: Loader 1s 400ms ease-in-out infinite;
   background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to right, #ff79da, #9356dc);
 }
 
 #Spin_Loader3 {
   border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  -webkit-animation: Loader 2s 300ms ease-in-out infinite;
-          animation: Loader 2s 300ms ease-in-out infinite;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: Loader 1s 200ms ease-in-out infinite;
+          animation: Loader 1s 200ms ease-in-out infinite;
   background: -webkit-gradient(linear, left bottom, left top, from(#ff79da), to(#9356dc));
   background: linear-gradient(to top, #ff79da, #9356dc);
 }
 
 #Pageloader {
+  -webkit-animation: Page_loader 3s;
+          animation: Page_loader 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Themes */
