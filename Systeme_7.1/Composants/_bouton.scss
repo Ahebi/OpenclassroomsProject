@@ -66,15 +66,36 @@
     
         /* Bouton Coeur*/
     
+@keyframes iconecoeur{
+
+0%{
+    transform: scale(1);
+    font-weight: 400;
+}
+
+100%{
+    transform: scale(1.2);
+    font-weight: 700;
+
+            background: radial-gradient(ellipse at bottom, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
+            
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent
+}
+
+}
+
     .fa-regular {
         font-weight: 400;
         
-        transition: font-weight 600ms ease-in-out, color 600ms ease-in-out;
+        
     
         &:hover{
             
             font-weight: 700;
-            color: $Secondaire;
+            animation: iconecoeur 300ms ease-in-out ;
+            animation-fill-mode: forwards;
             cursor: pointer;
             
         }
