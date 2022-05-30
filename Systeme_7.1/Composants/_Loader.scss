@@ -17,13 +17,12 @@
         opacity: 1;
         z-index: 5;
     }
-    20%{
-        opacity: 0.9;
-        
-    }
- 
-    100%{
+    99%{
         opacity: 0;
+        z-index:5;
+    }
+    100%{
+        opacity:0;
         z-index: -5;
     }
 }

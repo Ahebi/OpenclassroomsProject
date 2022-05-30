@@ -1494,8 +1494,9 @@ a {
     opacity: 1;
     z-index: 5;
   }
-  20% {
-    opacity: 0.9;
+  99% {
+    opacity: 0;
+    z-index: 5;
   }
   100% {
     opacity: 0;
@@ -1508,8 +1509,9 @@ a {
     opacity: 1;
     z-index: 5;
   }
-  20% {
-    opacity: 0.9;
+  99% {
+    opacity: 0;
+    z-index: 5;
   }
   100% {
     opacity: 0;
