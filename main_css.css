@@ -872,20 +872,41 @@ a {
     margin-bottom: 40px;
   }
   .cartemenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 20px;
     background-color: white;
     margin: 20px 5px;
-    padding: 20px;
+    height: 100px;
+    width: 100%;
     -webkit-box-shadow: lightgray 0px 5px 5px;
             box-shadow: lightgray 0px 5px 5px;
+  }
+  .cartemenu_deuxtexte {
+    width: 70%;
+    padding: 20px;
+  }
+  .titremenu {
+    margin: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
   }
   .descriptionmenu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -893,10 +914,23 @@ a {
     font-size: 15px;
     font-family: "roboto", sans-serif;
   }
-  .titremenu {
-    margin: 2px;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+  .iconecheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    background-color: #99e2d0;
+    border-radius: 0px 15px 15px 0px;
+    width: 50px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 30px;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1266,50 +1300,37 @@ a {
 
 /* Fin Bouton color*/
 /* Bouton Coeur*/
-@-webkit-keyframes iconecoeur {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    font-weight: 400;
-  }
-  100% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    font-weight: 700;
-    background: radial-gradient(ellipse at bottom, #ff88de 0%, #a978e3 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-@keyframes iconecoeur {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    font-weight: 400;
-  }
-  100% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    font-weight: 700;
-    background: radial-gradient(ellipse at bottom, #ff88de 0%, #a978e3 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
 .fa-regular {
   font-weight: 400;
   font-size: 30px;
+  position: relative;
 }
 
-.fa-regular:hover {
+.fa-regular::after {
+  content: "\f004";
   font-weight: 700;
-  -webkit-animation: iconecoeur 300ms ease-in-out;
-          animation: iconecoeur 300ms ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff79da), to(#9356dc));
+  background: linear-gradient(to right, #ff79da, #9356dc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition-property: top, bottom, left,right;
+  transition-property: top, bottom, left,right;
+}
+
+.fa-regular:hover::after {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   cursor: pointer;
 }
 
