@@ -84,7 +84,7 @@
         top: 50%;
         right: 50%;
         bottom: 50%;
-        background: linear-gradient(to right, $Secondaire, $Primaire);
+        background: radial-gradient(ellipse at left bottom, lighten($Secondaire, 3) 0%, lighten($Primaire, 8) 100%);
             
             background-clip: text;
             -webkit-background-clip: text;
@@ -105,4 +105,13 @@
         }
     }
         /* Fin Bouton Coeur*/
+
+        /* bouton fleche retour */
+
+        .fa-arrow-left-long
+        {
+            text-decoration: none;
+            color: black;
+        }
+        /* fin bouton fleche retour */
     

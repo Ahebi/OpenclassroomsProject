@@ -10,7 +10,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 75%;
+    margin-left: 10px;
 }
 #logoResto
 {
@@ -19,6 +20,11 @@
     align-items: center;
     width: 70%;
     object-fit: cover;
+}
+#flecheretour
+{
+    font-size: 16px;
+   
 }
 
 #Figimgfondresto
@@ -36,9 +42,9 @@
 }
 .GlobalSection
 {
-   
     position: relative;
-    bottom: 60px;
+    z-index: 5;
+    margin-top: -60px;
     border-radius: 50px 50px 0px 0px;
     background-color: #f2f2f2;
     
@@ -60,6 +66,7 @@
     margin: 20px 5px;
     height: 100px;
     width: 100%;
+    
     box-shadow: lightgray 0px 5px 5px;
 }
 .cartemenu_deuxtexte
@@ -71,7 +78,7 @@
 {
     margin: 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 .descriptionmenu
@@ -80,18 +87,29 @@
     flex-direction: row;
     align-items: center;
     margin: 2px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "roboto", sans-serif;
     
+}
+.prix_resto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 30%;
+
 }
 .iconecheck
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     color: white;
     background-color: $Tertiaire;
     border-radius: 0px 15px 15px 0px;
+
     
     width: 50px;
     height: 100%;
@@ -140,7 +158,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 70%;
+    margin-left: 20px;
 }
 #logoResto
 {
@@ -150,7 +169,12 @@
     width: 70%;
     object-fit: cover;
 }
-
+#flecheretour
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
 #Figimgfondresto
 {
     
@@ -168,7 +192,8 @@
 {
    
     position: relative;
-    bottom: 60px;
+    z-index: 5;
+    margin-top: -80px;
     border-radius: 50px 50px 0px 0px;
     background-color: #f2f2f2;
     
@@ -183,18 +208,26 @@
 }
 .cartemenu
 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border-radius: 20px;
     background-color: white;
     margin: 20px ;
-    padding: 20px;
+    height: 150px;
     box-shadow: lightgray 0px 5px 5px;
-    width: 38%;
+    width: 40%;
     
+}
+.cartemenu_deuxtexte
+{
+    width: 80%;
+    padding: 20px;
 }
 .descriptionmenu
 {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     margin: 2px;
     font-size: 15px;
@@ -205,6 +238,32 @@
     margin: 2px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+}
+.prix_resto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 20%;
+
+}
+.iconecheck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    background-color: $Tertiaire;
+    border-radius: 0px 15px 15px 0px;
+
+    
+    width: 50px;
+    height: 100%;
+    
+    font-size: 25px;
+    margin-left: 10px;
 }
 .titrecategorie_Resto
 {
@@ -260,6 +319,7 @@
     justify-content: space-between;
     align-items: center;
     width: 60%;
+    margin-left: 40px;
 }
 #logoResto
 {
@@ -269,7 +329,12 @@
     width: 40%;
     object-fit: cover;
 }
-
+#flecheretour
+{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
 #Figimgfondresto
 {
     
@@ -287,7 +352,8 @@
 {
    
     position: relative;
-    bottom: 60px;
+    z-index: 5;
+    margin-top: -70px;
     border-radius: 60px 60px 0px 0px;
     background-color: #f2f2f2;
     
@@ -299,20 +365,30 @@
     flex-direction: row;
     
 }
+
 .cartemenu
 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border-radius: 20px;
     background-color: white;
     margin: 20px ;
-    padding: 20px;
+    
     box-shadow: lightgray 0px 5px 5px;
     width: 38%;
+    height: 80px;
     
+}
+.cartemenu_deuxtexte
+{
+    padding: 20px;
+    width: 70%;
 }
 .descriptionmenu
 {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     margin: 2px;
     font-size: 15px;
@@ -323,6 +399,32 @@
     margin: 2px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+}
+.prix_resto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 30%;
+
+}
+.iconecheck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    background-color: $Tertiaire;
+    border-radius: 0px 15px 15px 0px;
+
+    
+    width: 80px;
+    height: 100%;
+    
+    font-size: 25px;
+    margin-left: 10px;
 }
 .titrecategorie_Resto
 {
