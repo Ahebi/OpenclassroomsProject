@@ -1389,8 +1389,8 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  -webkit-transition-property: top, bottom, left,right;
-  transition-property: top, bottom, left,right;
+  -webkit-transition-property: top, bottom, left, right;
+  transition-property: top, bottom, left, right;
 }
 
 .fa-regular:hover::after {
@@ -1541,18 +1541,18 @@ a {
     height: 100%;
     font-size: 25px;
     margin-left: 10px;
-    -webkit-transition: -webkit-transform 330ms ease-in-out;
-    transition: -webkit-transform 330ms ease-in-out;
-    transition: transform 330ms ease-in-out;
-    transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
+    -webkit-transition: -webkit-transform 400ms ease-in-out;
+    transition: -webkit-transform 400ms ease-in-out;
+    transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease-in-out, -webkit-transform 400ms ease-in-out;
   }
   .cartemenu:hover > .iconecheck {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    cursor: pointer;
     -webkit-transform: translate(-70px);
             transform: translate(-70px);
-    cursor: pointer;
   }
 }
 

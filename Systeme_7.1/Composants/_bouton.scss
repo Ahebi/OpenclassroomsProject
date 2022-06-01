@@ -72,7 +72,7 @@
         font-weight: 400;
         font-size: 30px;
         position: relative;
-        
+       
         
 
     &::after {
@@ -91,7 +91,7 @@
             -webkit-text-fill-color: transparent;
 
             transition :  0.3s ease-in-out;
-            transition-property : top, bottom, left,right;
+            transition-property : top, bottom, left, right;
         
     }
     
