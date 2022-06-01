@@ -933,25 +933,8 @@ a {
         -ms-flex-align: center;
             align-items: center;
     font-size: 16px;
+    font-family: "roboto", sans-serif;
     width: 30%;
-  }
-  .iconecheck {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: white;
-    background-color: #99e2d0;
-    border-radius: 0px 15px 15px 0px;
-    width: 50px;
-    height: 100%;
-    font-size: 25px;
-    margin-left: 30px;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1073,6 +1056,7 @@ a {
     -webkit-box-shadow: lightgray 0px 5px 5px;
             box-shadow: lightgray 0px 5px 5px;
     width: 40%;
+    text-overflow: ellipsis;
   }
   .cartemenu_deuxtexte {
     width: 80%;
@@ -1106,24 +1090,6 @@ a {
             align-items: center;
     font-size: 18px;
     width: 20%;
-  }
-  .iconecheck {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: white;
-    background-color: #99e2d0;
-    border-radius: 0px 15px 15px 0px;
-    width: 50px;
-    height: 100%;
-    font-size: 25px;
-    margin-left: 10px;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1259,6 +1225,7 @@ a {
             box-shadow: lightgray 0px 5px 5px;
     width: 38%;
     height: 80px;
+    text-overflow: ellipsis;
   }
   .cartemenu_deuxtexte {
     padding: 20px;
@@ -1292,24 +1259,6 @@ a {
             align-items: center;
     font-size: 18px;
     width: 30%;
-  }
-  .iconecheck {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: white;
-    background-color: #99e2d0;
-    border-radius: 0px 15px 15px 0px;
-    width: 80px;
-    height: 100%;
-    font-size: 25px;
-    margin-left: 10px;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1568,6 +1517,87 @@ a {
   top: 0vh;
   height: 100vh;
   width: 100vw;
+}
+
+/* desktop*/
+@media screen and (min-width: 993px) {
+  .iconecheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: none;
+    color: white;
+    background-color: #99e2d0;
+    border-radius: 0px 15px 15px 0px;
+    position: relative;
+    left: 70px;
+    width: 80px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 10px;
+    -webkit-transition: -webkit-transform 330ms ease-in-out;
+    transition: -webkit-transform 330ms ease-in-out;
+    transition: transform 330ms ease-in-out;
+    transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
+  }
+  .cartemenu:hover > .iconecheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translate(-70px);
+            transform: translate(-70px);
+    cursor: pointer;
+  }
+}
+
+/* tablette */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .iconecheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    background-color: #99e2d0;
+    border-radius: 0px 15px 15px 0px;
+    width: 50px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 768px) {
+  .iconecheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    background-color: #99e2d0;
+    border-radius: 0px 15px 15px 0px;
+    width: 50px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 30px;
+  }
 }
 
 /* Themes */

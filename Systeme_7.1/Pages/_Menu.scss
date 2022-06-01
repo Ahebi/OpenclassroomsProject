@@ -73,6 +73,7 @@
 {
     width: 70%;
     padding: 20px;
+   
 }
 .titremenu
 {
@@ -97,26 +98,11 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    font-family: "roboto", sans-serif;
     width: 30%;
-
+    
 }
-.iconecheck
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: white;
-    background-color: $Tertiaire;
-    border-radius: 0px 15px 15px 0px;
 
-    
-    width: 50px;
-    height: 100%;
-    
-    font-size: 25px;
-    margin-left: 30px;
-}
 .titrecategorie_Resto
 {
     font-family: "Roboto", sans-serif;
@@ -217,7 +203,7 @@
     height: 150px;
     box-shadow: lightgray 0px 5px 5px;
     width: 40%;
-    
+    text-overflow: ellipsis;
 }
 .cartemenu_deuxtexte
 {
@@ -248,23 +234,7 @@
     width: 20%;
 
 }
-.iconecheck
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: white;
-    background-color: $Tertiaire;
-    border-radius: 0px 15px 15px 0px;
 
-    
-    width: 50px;
-    height: 100%;
-    
-    font-size: 25px;
-    margin-left: 10px;
-}
 .titrecategorie_Resto
 {
     font-family: "Roboto", sans-serif;
@@ -378,7 +348,7 @@
     box-shadow: lightgray 0px 5px 5px;
     width: 38%;
     height: 80px;
-    
+    text-overflow: ellipsis;
 }
 .cartemenu_deuxtexte
 {
@@ -409,23 +379,7 @@
     width: 30%;
 
 }
-.iconecheck
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: white;
-    background-color: $Tertiaire;
-    border-radius: 0px 15px 15px 0px;
 
-    
-    width: 80px;
-    height: 100%;
-    
-    font-size: 25px;
-    margin-left: 10px;
-}
 .titrecategorie_Resto
 {
     font-family: "Roboto", sans-serif;

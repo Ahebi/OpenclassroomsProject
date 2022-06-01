@@ -1,0 +1,71 @@
+
+    /* desktop*/
+    
+@media screen and (min-width: 993px) {
+.iconecheck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+    background-color: $Tertiaire;
+    border-radius: 0px 15px 15px 0px;
+
+    position: relative;
+    left: 70px;    
+    width: 80px;
+    height: 100%;
+    font-size: 25px;
+    margin-left: 10px;
+    transition: transform 330ms ease-in-out;
+}
+.cartemenu:hover > .iconecheck
+{
+    display: flex;
+    transform: translate(-70px);
+    cursor: pointer;
+}
+}
+    /* tablette */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .iconecheck
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color: white;
+        background-color: $Tertiaire;
+        border-radius: 0px 15px 15px 0px;
+    
+        
+        width: 50px;
+        height: 100%;
+        
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+    /*mobile*/
+@media screen and (max-width: 768px) {
+.iconecheck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    background-color: $Tertiaire;
+    border-radius: 0px 15px 15px 0px;
+
+    
+    width: 50px;
+    height: 100%;
+    
+    font-size: 25px;
+    margin-left: 30px;
+}
+}
+
