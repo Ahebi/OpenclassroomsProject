@@ -18,14 +18,18 @@
     height: 100%;
     font-size: 25px;
     margin-left: 10px;
-    transition: transform 400ms ease-in-out;
+    
 }
 .cartemenu:hover > .iconecheck
 {
     display: flex;
     cursor: pointer;
-    transform: translate(-70px);
+    animation: iconecheck_slide_Desktop 500ms ease-out forwards;
     
+}
+.cartemenu:hover > .iconecheck > .fa-circle-check
+{
+    animation: iconecheck_rotate 400ms 100ms ease-out ;
 }
 }
     /* tablette */
@@ -35,18 +39,29 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        display: none;
         color: white;
         background-color: $Tertiaire;
         border-radius: 0px 15px 15px 0px;
-    
-        
-        width: 50px;
+        position: relative;
+        left: 50px;
+        width: 60px;
         height: 100%;
         
         font-size: 25px;
         margin-left: 10px;
     }
+    .cartemenu:hover > .iconecheck
+{
+    display: flex;
+    cursor: pointer;
+    animation: iconecheck_slide_Tablette 500ms ease-out forwards;
+    
+}
+.cartemenu:hover > .iconecheck > .fa-circle-check
+{
+    animation: iconecheck_rotate 400ms 100ms ease-out ;
+}
 }
 
     /*mobile*/
@@ -56,16 +71,93 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    display: none;
     color: white;
     background-color: $Tertiaire;
     border-radius: 0px 15px 15px 0px;
-
-    
-    width: 50px;
+    position: relative;
+    left: 50px;    
+    width: 60px;
     height: 100%;
     
     font-size: 25px;
     margin-left: 30px;
 }
+.cartemenu:hover > .iconecheck
+{
+    display: flex;
+    cursor: pointer;
+    animation: iconecheck_slide_Mobile 500ms ease-out forwards;
+    
+}
+.cartemenu:hover > .iconecheck > .fa-circle-check
+{
+    animation: iconecheck_rotate 400ms 100ms ease-out ;
+}
+}
+        /* keyframes Desktop*/
+
+@keyframes iconecheck_slide_Desktop
+{
+    0%{
+        transform: translate(0px);
+        opacity: 0;
+    }
+    
+    
+    100%{
+        transform: translate(-70px) ;
+        opacity: 1;
+    }
+
+}
+        /* keyframes Tablette*/
+
+
+@keyframes iconecheck_slide_Tablette
+{
+    0%{
+        transform: translate(0px);
+        opacity: 0;
+    }
+    
+    
+    100%{
+        transform: translate(-50px) ;
+        opacity: 1;
+    }
+
+}
+
+        /* keyframes Mobile */
+
+
+@keyframes iconecheck_slide_Mobile
+{
+    0%{
+        transform: translate(0px);
+        opacity: 0;
+    }
+    
+    
+    100%{
+        transform: translate(-50px) ;
+        opacity: 1;
+    }
+
+}
+    /* keyframes rotate */
+@keyframes iconecheck_rotate
+{
+    0%{
+        transform: rotate(0deg);
+       
+    }
+    
+    
+    100%{
+        transform: rotate(360deg) ;
+        
+    }
+
 }
