@@ -134,6 +134,12 @@ a {
   background-color: #F2F2F2;
 }
 
+.text_overflow_ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Pages */
 /* header*/
 /* Version Mobile */
@@ -197,6 +203,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
     padding: 30px;
+    font-family: 'Roboto', sans-serif;
   }
 }
 
@@ -240,6 +247,7 @@ a {
             flex-direction: row;
     background-color: gainsboro;
     width: 340px;
+    font-family: 'Roboto', sans-serif;
   }
   .P_reservez {
     display: none;
@@ -277,6 +285,7 @@ a {
   }
   .FonctText {
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
   }
   .blocexplfonct {
     border-radius: 40px;
@@ -349,8 +358,10 @@ a {
   }
   .FonctText {
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
   }
   .blocexplfonct {
+    font-family: 'Roboto', sans-serif;
     border-radius: 40px;
     background-color: #F2F2F2;
     margin: 30px;
@@ -600,6 +611,7 @@ a {
   .figcaptionRestaurants {
     padding: 5px;
     color: black;
+    font-family: 'Roboto', sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -691,6 +703,7 @@ a {
   .figcaptionRestaurants {
     padding: 5px;
     color: black;
+    font-family: 'Roboto', sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -709,7 +722,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 20px;
+    width: 40px;
   }
   h1, h2, h3 {
     font-weight: 700;
@@ -772,6 +785,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-family: 'Roboto', sans-serif;
   }
   .figcaptionRestaurants {
     padding: 12px;
@@ -787,6 +801,7 @@ a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
   }
   .Blociconecoeur {
     display: -webkit-box;
@@ -905,7 +920,7 @@ a {
   .titremenu {
     margin: 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
   }
   .descriptionmenu {
     display: -webkit-box;
@@ -1056,7 +1071,6 @@ a {
     -webkit-box-shadow: lightgray 0px 5px 5px;
             box-shadow: lightgray 0px 5px 5px;
     width: 40%;
-    text-overflow: ellipsis;
   }
   .cartemenu_deuxtexte {
     width: 80%;
@@ -1070,13 +1084,13 @@ a {
         -ms-flex-align: center;
             align-items: center;
     margin: 2px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "roboto", sans-serif;
   }
   .titremenu {
-    margin: 2px;
+    margin: 10px 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
   }
   .prix_resto {
     display: -webkit-box;
@@ -1088,8 +1102,9 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     width: 20%;
+    font-family: "Roboto", sans-serif;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1225,7 +1240,6 @@ a {
             box-shadow: lightgray 0px 5px 5px;
     width: 38%;
     height: 80px;
-    text-overflow: ellipsis;
   }
   .cartemenu_deuxtexte {
     padding: 20px;
@@ -1240,7 +1254,7 @@ a {
             align-items: center;
     margin: 2px;
     font-size: 15px;
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .titremenu {
     margin: 2px;
@@ -1259,6 +1273,7 @@ a {
             align-items: center;
     font-size: 18px;
     width: 30%;
+    font-family: "Roboto", sans-serif;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1610,8 +1625,8 @@ a {
     background-color: #99e2d0;
     border-radius: 0px 15px 15px 0px;
     position: relative;
-    left: 50px;
-    width: 60px;
+    left: 40px;
+    width: 50px;
     height: 100%;
     font-size: 25px;
     margin-left: 30px;
@@ -1690,8 +1705,8 @@ a {
     opacity: 0;
   }
   100% {
-    -webkit-transform: translate(-50px);
-            transform: translate(-50px);
+    -webkit-transform: translate(-40px);
+            transform: translate(-40px);
     opacity: 1;
   }
 }
@@ -1702,8 +1717,8 @@ a {
     opacity: 0;
   }
   100% {
-    -webkit-transform: translate(-50px);
-            transform: translate(-50px);
+    -webkit-transform: translate(-40px);
+            transform: translate(-40px);
     opacity: 1;
   }
 }

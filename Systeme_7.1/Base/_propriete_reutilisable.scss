@@ -12,4 +12,9 @@
 {
     background-color: #F2F2F2;
 }
-
+.text_overflow_ellipsis
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
