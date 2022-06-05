@@ -107,17 +107,30 @@ header
 {
    display: flex;
    align-items: center;
-   justify-content: space-around;
-
+   margin-left: 10px;
+}
+.taille_icone_fonct
+{
+    
+    font-size:  16px ;
+    
 }
 .iconechiffre
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 96%;
+    
     color: white;
-    padding: 10px;
+    padding: 5px;
     background-color: $Primaire;
     margin-left: 0px;
     border-radius : 30px;  
-    
+    height: 10px;
+    width: 10px;
+
 }
 .FonctText
 {
@@ -143,9 +156,10 @@ header
 
 .divdivFonct
 {
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 85%;
 }
@@ -171,12 +185,19 @@ header
     }
     .iconechiffre
     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
-        padding: 10px;
+        padding: 5px;
         background-color: $Primaire;
         margin-left: 0px;
-        border-radius : 30px;  
-        
+        border-radius : 30px; 
+        height: 10px;
+        width: 10px; 
+        position: absolute;
+        right: 96%;
+
     }
     .FonctText
     {
@@ -220,9 +241,10 @@ header
         @media screen and (min-width: 561px) and (max-width: 992px){
     .divdivFonct
     {
+        position: relative;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         width: 85%;
         
@@ -247,15 +269,23 @@ header
         {
            display: flex;
            align-items: center;
+           margin-left: 10px;
            
         }
         .iconechiffre
         {
             color: white;
-            padding: 10px;
+            padding: 5px;
             background-color: $Primaire;
             margin-left: 0px;
             border-radius : 30px;  
+            height: 10px;
+            width: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 96%;
             
         }
     }
@@ -292,9 +322,10 @@ header
         {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
-           width: 70%;
+            position: relative;
+            width: 70%;
             
         }
         }
@@ -304,10 +335,10 @@ header
                 {
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     align-items: center;
-                   width: 80%;
-                    
+                    width: 80%;
+                   position: relative;
                 }
             }
             @media screen and (min-width: 1147px) and (max-width: 1230px){
@@ -316,10 +347,10 @@ header
                 {
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     align-items: center;
-                   width: 85%;
-                    
+                    width: 85%;
+                   position: relative;
                 }
             }
             @media screen and (min-width: 993px) and (max-width: 1146px){
@@ -328,10 +359,10 @@ header
                 {
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     align-items: center;
                     width: 100%;
-                    
+                    position: relative;
                 }  
                 .FonctText
                 {
