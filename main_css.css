@@ -1115,7 +1115,7 @@ a {
     width: 40%;
   }
   .cartemenu_deuxtexte {
-    width: 80%;
+    width: 70%;
     padding: 20px;
   }
   .descriptionmenu {
@@ -1132,7 +1132,7 @@ a {
   .titremenu {
     margin: 10px 2px;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
   }
   .prix_resto {
     display: -webkit-box;
@@ -1671,7 +1671,6 @@ a {
     width: 50px;
     height: 100%;
     font-size: 25px;
-    margin-left: 30px;
   }
   .cartemenu:hover > .iconecheck {
     display: -webkit-box;
