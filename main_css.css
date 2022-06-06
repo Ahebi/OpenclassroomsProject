@@ -925,6 +925,7 @@ a {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+    height: 300px;
   }
   .GlobalSection {
     position: relative;
@@ -991,7 +992,7 @@ a {
             align-items: center;
     font-size: 16px;
     font-family: "roboto", sans-serif;
-    width: 30%;
+    width: 25%;
   }
   .titrecategorie_Resto {
     font-family: "Roboto", sans-serif;
@@ -1115,7 +1116,7 @@ a {
     width: 40%;
   }
   .cartemenu_deuxtexte {
-    width: 70%;
+    width: 75%;
     padding: 20px;
   }
   .descriptionmenu {
@@ -1126,7 +1127,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
     margin: 2px;
-    font-size: 14px;
+    font-size: 12px;
     font-family: "roboto", sans-serif;
   }
   .titremenu {
@@ -1636,6 +1637,9 @@ a {
     font-size: 25px;
     margin-left: 10px;
   }
+  .cartemenu:hover > .cartemenu_deuxtexte {
+    width: 60%;
+  }
   .cartemenu:hover > .iconecheck {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1671,6 +1675,9 @@ a {
     width: 50px;
     height: 100%;
     font-size: 25px;
+  }
+  .cartemenu:hover > .cartemenu_deuxtexte {
+    width: 60%;
   }
   .cartemenu:hover > .iconecheck {
     display: -webkit-box;

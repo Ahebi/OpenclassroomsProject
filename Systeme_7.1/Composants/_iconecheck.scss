@@ -51,6 +51,10 @@
         font-size: 25px;
         margin-left: 10px;
     }
+    .cartemenu:hover > .cartemenu_deuxtexte
+    {
+        width: 60%;
+    }
     .cartemenu:hover > .iconecheck
 {
     display: flex;
@@ -82,6 +86,10 @@
     
     font-size: 25px;
    
+}
+.cartemenu:hover > .cartemenu_deuxtexte
+{
+    width: 60%;
 }
 .cartemenu:hover > .iconecheck
 {
