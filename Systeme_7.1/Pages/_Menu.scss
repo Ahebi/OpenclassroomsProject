@@ -66,7 +66,7 @@
     margin: 20px 5px;
     height: 100px;
     width: 100%;
-    
+    overflow: hidden;
     box-shadow: lightgray 0px 5px 5px;
 }
 .cartemenu_deuxtexte
@@ -84,7 +84,7 @@
 }
 .descriptionmenu
 {
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: center;
     margin: 2px;
@@ -203,7 +203,7 @@
     height: 150px;
     box-shadow: lightgray 0px 5px 5px;
     width: 40%;
-    
+    overflow: hidden;
 }
 .cartemenu_deuxtexte
 {
@@ -212,7 +212,7 @@
 }
 .descriptionmenu
 {
-    display: flex;
+    display: block;
     
     align-items: center;
     margin: 2px;
@@ -348,7 +348,7 @@
     box-shadow: lightgray 0px 5px 5px;
     width: 38%;
     height: 80px;
-    
+    overflow: hidden;
 }
 .cartemenu_deuxtexte
 {
@@ -357,7 +357,7 @@
 }
 .descriptionmenu
 {
-    display: flex;
+    display: block;
     
     align-items: center;
     margin: 2px;
