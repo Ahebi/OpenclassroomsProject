@@ -31,6 +31,10 @@
 {
     animation: iconecheck_rotate 400ms 100ms ease-out ;
 }
+.cartemenu:hover > .cartemenu_deuxtexte
+{
+    width: 50%;
+}
 }
     /* tablette */
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -80,8 +84,8 @@
     background-color: $Tertiaire;
     border-radius: 0px 15px 15px 0px;
     position: relative;
-    left: 40px;    
-    width: 50px;
+    left: 50px;    
+    width: 60px;
     height: 100%;
     
     font-size: 25px;

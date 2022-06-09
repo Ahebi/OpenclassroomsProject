@@ -35,6 +35,9 @@
 {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .P_reservez
@@ -379,21 +382,22 @@ header
 
 .card
 {
-  
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: white;
     box-shadow: lightgray 0px 5px 5px;
     border-radius: 20px 20px 20px 20px;
     margin: 0px;
-    padding: 5px;
-    height: 330px;
+    padding: 0px;
+    height: 340px;
 }
 .Fig_A_Resto
 {
     margin: 30px 1px;
     height: 330px;
 }
+
 .img
 {
 
@@ -410,7 +414,7 @@ header
 
 }
 
-       
+   
 .titrealigneacceuil
 {
     margin-left: 20px;
@@ -444,7 +448,36 @@ h1, h2, h3
 }
 
 }
+/* responsive mobile cadre _Nouveau_ */
+@media screen and (min-width: 400px) and (max-width: 560px) {
 
+.balise_nouveau
+{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: darken($Tertiaire, 50);
+    border: 1px solid $Tertiaire;
+    background-color: $Tertiaire;
+    position: absolute;
+    left: 80%;
+} 
+
+}
+@media screen and (max-width: 399px) {
+    .balise_nouveau
+    {
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        color: darken($Tertiaire, 50);
+        border: 1px solid $Tertiaire;
+        background-color: $Tertiaire;
+        position: absolute;
+        left: 72%;
+    } 
+
+}
 /* Tablette */
 
 @media screen and (min-width: 561px) and (max-width: 992px){
@@ -452,14 +485,14 @@ h1, h2, h3
 
 .card
 {
-  
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: white;
     box-shadow: lightgray 0px 5px 5px;
     border-radius: 20px 20px 20px 20px;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
     height: 250px;
     
 }
@@ -526,7 +559,50 @@ h1, h2, h3
     color: black;
 }
 }
+/* responsive Tablette cadre _Nouveau_ */
+@media screen and (min-width: 561px) and (max-width: 659px) {
 
+    .balise_nouveau
+    {
+        padding: 2px;
+        font-size: 16px;
+        font-weight: 600;
+        color: darken($Tertiaire, 50);
+        border: 1px solid $Tertiaire;
+        background-color: $Tertiaire;
+        position: absolute;
+        left: 70%;
+    } 
+    
+    }
+    @media screen and (min-width: 660px) and (max-width: 879px) {
+        .balise_nouveau
+        {
+            padding: 2px;
+            font-size: 16px;
+            font-weight: 600;
+            color: darken($Tertiaire, 50);
+            border: 1px solid $Tertiaire;
+            background-color: $Tertiaire;
+            position: absolute;
+            left: 75%;
+        } 
+    
+    }
+    @media screen and (min-width: 880px) and (max-width: 992px) {
+        .balise_nouveau
+        {
+            padding: 2px;
+            font-size: 16px;
+            font-weight: 600;
+            color: darken($Tertiaire, 50);
+            border: 1px solid $Tertiaire;
+            background-color: $Tertiaire;
+            position: absolute;
+            left: 80%;
+        } 
+    
+    }
 /* Desktop*/
 
 @media screen and (min-width: 993px) {
@@ -539,14 +615,14 @@ h1, h2, h3
     }
         .card
         {
-          
+            position: relative;
             display: flex;
             flex-direction: column;
             background-color: white;
             box-shadow: lightgray 0px 5px 5px;
             border-radius: 20px 20px 20px 20px;
             margin: 30px 10px;
-            padding: 5px;
+            padding: 0px; 
             flex-grow: 1;
             
         }
@@ -593,7 +669,7 @@ h1, h2, h3
         {
             display: flex;
             align-items: center;
-            width: 5%;
+            width: 10%;
         }
         @media screen and (min-width: 1629px) {
 
@@ -626,3 +702,34 @@ h1, h2, h3
 
 
 }
+
+/* responsive Desktop cadre _Nouveau_ */
+@media screen and (min-width: 993px) and (max-width: 1500px) {
+
+    .balise_nouveau
+    {
+        padding: 2px;
+        font-size: 16px;
+        font-weight: 600;
+        color: darken($Tertiaire, 50);
+        border: 1px solid $Tertiaire;
+        background-color: $Tertiaire;
+        position: absolute;
+        left: 68%;
+    } 
+    
+    }
+    @media screen and (min-width: 1501px) {
+
+        .balise_nouveau
+        {
+            padding: 2px;
+            font-size: 16px;
+            font-weight: 600;
+            color: darken($Tertiaire, 50);
+            border: 1px solid $Tertiaire;
+            background-color: $Tertiaire;
+            position: absolute;
+            left: 79%;
+        } 
+    }
