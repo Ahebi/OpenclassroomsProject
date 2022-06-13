@@ -64,13 +64,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gainsboro;
+    border-bottom:  6px rgb(173, 173, 173) solid;
 }
 .location_explorer
 {
     display: flex;
     flex-direction: row;
-    border-top:  6px rgb(173, 173, 173) solid;
+    
 } 
 .location
 {
@@ -95,6 +95,7 @@
    display: flex;
    justify-content:center;
    align-items: center;
+   font-size: 19px;
 }
 
 .P_reservez
@@ -102,6 +103,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    font-size: 18px;
 }
         }
 

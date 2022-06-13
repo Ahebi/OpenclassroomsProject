@@ -241,7 +241,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: gainsboro;
+    border-bottom: 6px #adadad solid;
   }
   .location_explorer {
     display: -webkit-box;
@@ -251,7 +251,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    border-top: 6px #adadad solid;
   }
   .location {
     display: -webkit-box;
@@ -290,6 +289,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 19px;
   }
   .P_reservez {
     display: -webkit-box;
@@ -301,6 +301,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 18px;
   }
 }
 
