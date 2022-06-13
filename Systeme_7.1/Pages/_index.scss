@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-    
+
 .location
 {
     display: flex;
@@ -59,38 +59,49 @@
             /* Version Desktop */
         @media screen and (min-width: 993px)
         {
-header
+#header_index
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+.location_explorer
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: gainsboro;
-}
-
+    border-top:  6px rgb(173, 173, 173) solid;
+} 
 .location
 {
     display: flex;
     justify-content: center;
-    width: 270px;
+    width: 20%;
     align-items: center;
     
-     
-}
-.Titre_reservez
-{
-   display: none;
+    background-color:  rgb(199, 199, 199) ;
 }
 #blocreservez
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: gainsboro;
-    width: 340px;
+    width: 80%;
     font-family: 'Roboto', sans-serif;
 }
+.Titre_reservez
+{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+}
+
 .P_reservez
 {
-    display: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
         }
 
